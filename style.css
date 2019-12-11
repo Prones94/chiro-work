@@ -7,13 +7,12 @@ body {
     position: relative;
 }
 
-.slides-inner {
-    display: flex;
-    flex-direction: row;
-    /* position: absolute; */
-    transform: translate3d(0,0,0);
-    transition: 1000ms;
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
+
 header {
     color: white;
     display: grid;
@@ -39,6 +38,7 @@ div {
 
 .body-image {
     position: relative;
+    margin-bottom: 5em;
 }
 
 .spot {
@@ -70,6 +70,13 @@ div {
     }
 }
 
+.u-back {
+    height: 500px;
+}
+.knees {
+    display: flex;
+    flex-direction: row;
+}
 .shoulder-right {
     left: 840px;
     top:233px;
