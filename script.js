@@ -87,7 +87,3 @@ document.querySelector("body").addEventListener('click', function(e) {
   
     init()
   })()
-  function initButtons(slides) {
-    const nextButton = slides.querySelector('.next')
-    const prevButton = slides.querySelector('.prev')
-  }
