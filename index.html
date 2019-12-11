@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chiro Work</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <h1>Daily Aches</h1>
+        <p>Stressed from work, school, everyday life? Please click on a body part for an easy 3 - 5 minutes stretch you can do anywhere!</p>
+    </header>
+    <div class="body-image">
+        <img src="images/Body.jpg" alt="Human Body Nervous System">
+        <a href="#shoulder"><div class="spot shoulder-right" id="shoulder" data-location="right-shoulder" data-info="Shoulder Pain"></div></a>
+        <a href="#neck"><div class="spot neck" id="neck" data-location="neck" data-info="Stiff neck"></div></a>
+        <a href="#chest"><div class="spot chest" id="chest" data-location="chest" data-info="Sore or stiff chest area"></div></a>
+        <a href="#u-back"><div class="spot upper-back" id="upper" data-location="upper-back" data-info="Stiff Upper Back, or Pain"></div></a>
+        <a href="#l-back"><div class="spot lower-back" id="lower" data-location="lower-back" data-info="Stiff Lower Back, with limited mobilitya"></div></a>
+        <a href="#forearm"><div class="spot forearms" id="forearm" data-location="forearm" data-info="Forearm cramps"></div></a>
+        <a href="#hips"><div class="spot hip-flexor" id="hips" data-location="hip-flexor" data-info="Hip Flexors"></div></a>
+        <a href="#knees"><div class="spot knee-right" id="knee" data-location="right-knee" data-info="Stiff Knees"></div></a>
+        <a href="#knees"><div class="spot knee-left" id="knee" data-location="left-knee" data-info="Stiff Knees"></div></a>
+        
+    </div>
+
+    <div id="info-box">
+        <!-- Some info -->
+    </div>
+    <div id="s-slides" class="shoulder slides" data-delay="3000" data-transition="400">
+        <div class="slides-inner">
+        <img src="images/Shoulder-Stretch.gif" width="1200" height="400" alt="Shoulder Stretch">
+        <img src="images/Shoulder-Stretch-1.jpg" width="1200" height="400" alt="Shoulder Stretch">
+        </div>
+        
+    </div>
+    <div id="n-slides" class="neck slides" data-delay="3000" data-transition="400">
+        <div class="slides-inner">
+            <img src="images/Neck-1.png" width="1200" height="400" alt="neck stretches">
+            <img src="images/neck-image.jpg" width="1200" height="400" alt="Neck Stretches">
+        </div>
+
+    </div>
+    <div id="c-slides" class="chest slides" data-delay="3000" data-transition="400">
+        <div class="slides-inner">
+            <img src="images/Chest-Stretch.jpg" height="1200" width="400" alt="Chest Stretch">
+            <img src="images/Chest-Stretch-1.jpg" height="1200" width="400" alt="Chest Stretch">
+            <img src="images/Chest-Stretch-2.jpg" height="1200" width="400" alt="Chest Stretch">
+            <img src="images/Chest-Stretch-3.jpg" height="1200" width="400" alt="Chest Stretch">
+        </div>
+    </div>
+    <div id="upper-slides" class="u-back slides" data-delay="3000" data-transition="400">
+        <div class="slides-inner">
+            <img src="images/Upper-Back.jpg" height="1200" width="400" alt="Upper Back">
+            <img src="images/UpperBack-1.jpg" height="1200" width="400" alt="Upper Back">
+            <img src="images/UperBack2.jpg" height="1200" width="400" alt="Upper Back">
+        </div>
+    </div>
+    <div id="low-back" class="l-back slides" data-delay="3000" data-transition="400">
+        <div class="slides-inner">
+            <img src="images/LowBack.jpg" height="1200" width="400" alt="Lower Back">
+            <img src="images/LowBack1.jpg" height="1200" width="400" alt="Lower Back">
+        </div>
+    </div>
+    <div id="f-slides" class="forearm slides" data-delay="3000" data-transition="400">
+        <div class="slides-inner">
+            <img src="images/Forearm.jpg" height="1200" width="400" alt="Forearm Stretch">
+            <img src="images/Forearm1.jpg" height="1200" width="400" alt="Forearm Stretch">
+            <img src="images/Forearm-3.jpg" height="1200" width="400" alt="Forearm Stretch">
+        </div>
+    </div>
+    <div id="h-slides" class="hips slides" data-delay="3000" data-transition="400">
+        <div class="slides-inner">
+            <img src="images/hipflexor.jpeg" height="1200" width="400" alt="Hip Flexor">
+            <img src="images/hipflexor1.jpg" height="1200" width="400" alt="Hip Flexor">
+            <img src="images/hipflexor2.jpg" height="1200" width="400" alt="Hip Flexor">
+        </div>
+    </div>
+    <div id="k-slides" class="knees slides" data-delay="3000" data-transition="400">
+        <img src="images/knee.jpg" height="1200" width="400" alt="Knee Stretches">
+        <img src="images/knee1.jpg" height="1200" width="400" alt="Knee Stretches">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

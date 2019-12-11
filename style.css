@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+}
+
+.slides {
+    overflow: hidden;
+    position: relative;
+}
+
+.slides-inner {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    transform: translate3d(0,0,0);
+    transition: 1000ms;
+}
+header {
+    color: white;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif
+}
+#info-box {
+    padding: 2em;
+    color: white;
+    position: absolute;
+
+    border: 1px solid #fff;
+}
+div {
+    display: grid;
+    justify-content: center;
+}
+
+.body-image {
+    position: relative;
+}
+
+.spot {
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    /* box-shadow: 0 0 24px rgba(255,255,0, 0.6); */
+
+    animation-name: spot-glow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 1s;
+}
+
+.spot:hover {
+    box-shadow: 0 0 12px rgba(255,5,0, 0.6);
+}
+
+@keyframes spot-glow {
+    0% {
+        box-shadow: 0 0 12px rgba(255,5,0, 0.6);
+    }
+
+    100% {
+        box-shadow: 0 0 12px rgba(255,255,0, 0.6);
+    }
+}
+
+.shoulder-right {
+    left: 840px;
+    top:233px;
+}
+.shoulder-left {
+    left: 1100px;
+    top: 218px;
+}
+.neck {
+    left: 965px;
+    top: 155px;
+}
+.head {
+    left: 913px;
+    top: 43px;
+}
+.chest {
+    left: 880px;
+    top: 282px;
+}
+.upper-back {
+    left: 980px;
+    top: 260px;
+}
+.lower-back {
+    left: 972px;
+    bottom: 800px;
+}
+.forearms {
+    bottom: 685px;
+    left: 810px;
+}
+.hip-flexor {
+    bottom: 685px;
+    left: 1010px;
+}
+.knee-right {
+    bottom: 375px;
+    left: 875px;
+}
+.knee-left {
+    bottom: 357px;
+    left: 995px;
+}
